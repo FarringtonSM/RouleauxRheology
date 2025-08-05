@@ -2,7 +2,7 @@ All image files for microfluidic cell-free layer measurements are stored in Mend
 
 The following links are available for each dataset
 Dextran:
-(Part I): Farrington, Sean (2025), “Cell-Free Layer Measurement | Dextran Red Blood Cell Suspensions (Part 1)”, Mendeley Data, V1, doi: 10.17632/7k9bcy5byw.1
+(Part I): Farrington, Sean (2025), “Cell-Free Layer Measurement for Dextran Red Blood Cell Suspensions (Part I)”, Mendeley Data, V1, doi: 10.17632/7k9bcy5byw.1
 (Part II): Farrington, Sean (2025), “Cell-Free Layer Measurement for Dextran Red Blood Cell Suspensions (Part II)”, Mendeley Data, V1, doi: 10.17632/c9m6sznxhc.1
 
 
