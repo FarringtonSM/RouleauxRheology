@@ -55,8 +55,8 @@ def settling(ts,v_s):
     
     
     # Load in ML model for Casson parameterization
-    filename1 = 'C:/Users/JackRooks/OneDrive - Sean Farrington/OneDrive - University of Delaware - o365/Desktop/UDel Engineering/Blood Rheology/SMF_Computation/Steady Shear/HornerDataCassonFit/CassonCoordinateFits_Approximation/finalized_model_yieldstress.sav'
-    filename2 = 'C:/Users/JackRooks/OneDrive - Sean Farrington/OneDrive - University of Delaware - o365/Desktop/UDel Engineering/Blood Rheology/SMF_Computation/Steady Shear/HornerDataCassonFit/CassonCoordinateFits_Approximation/finalized_model_viscosity.sav'
+    filename1 = 'ML/finalized_model_yieldstress.sav'
+    filename2 = 'ML/finalized_model_viscosity.sav'
 
     gp_yield = pickle.load(open(filename1,'rb'))
     gp_visc = pickle.load(open(filename2,'rb'))
@@ -150,3 +150,4 @@ theoryExport = pd.DataFrame({'Step time':ts,
 #     dataExport.to_excel(writer,sheet_name='Data',index=False)
 #     theoryExport.to_excel(writer,sheet_name='Theory',index=False)
     
+
